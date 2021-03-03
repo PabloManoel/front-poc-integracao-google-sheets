@@ -9,14 +9,15 @@ function App() {
         <p>
           Google Spreadsheet Integration Test - deploy 02
         </p>
-        <a
+        <button
+          id="sendFeedback"
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          Send Request
+        </button>
       </header>
     </div>
   );
